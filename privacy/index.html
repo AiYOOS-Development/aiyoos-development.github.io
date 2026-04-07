@@ -135,7 +135,8 @@
                 </h1>
                 <p class="text-slate-600 text-lg">
                     <strong>AiYOOS Technology Inc.</strong><br>
-                    <em>Effective Date: February 11, 2026</em>
+                    <em>Version: 1.2</em><br>
+                    <em>Effective Date: April 8, 2026</em>
                 </p>
             </div>
 
@@ -176,6 +177,16 @@
 
                 <p><strong>User Account:</strong> Your registered profile on the AiYOOS platform, which includes your account information and user-controlled settings.</p>
 
+                <p><strong>Data Controller:</strong> The entity that determines the purposes and means of processing personal data. AiYOOS Technology Inc. acts as the Data Controller for all personal data processed in connection with the Service.</p>
+
+                <p><strong>Data Processor:</strong> An entity that processes personal data on behalf of the Data Controller, under binding contractual obligations. Third-party service providers engaged by AiYOOS (including Google LLC, Stripe, Inc., and Brave Software, Inc.) act as Data Processors.</p>
+
+                <p><strong>Data Processing Agreement (DPA):</strong> A binding contract between AiYOOS (as Data Controller) and a third-party vendor (as Data Processor), governing the processing of personal data in accordance with GDPR Article 28.</p>
+
+                <p><strong>Lawful Basis:</strong> The legal ground under GDPR Article 6 that permits the processing of personal data. Applicable bases used by AiYOOS include: (i) performance of a contract; (ii) legitimate interests; and (iii) consent, where applicable.</p>
+
+                <p><strong>Sensitive Personal Information (SPI):</strong> As defined under the CPRA, categories of personal information that warrant heightened protection, including but not limited to government identifiers, financial account details, health data, and biometric information.</p>
+
                 <h2 id="purpose-collection">3. Purpose of Data Collection</h2>
                 <p>AiYOOS collects only the minimal data necessary to operate and improve our search service. <strong>We do not collect data for advertising, behavioral profiling, or monetization purposes.</strong></p>
 
@@ -186,6 +197,10 @@
                     <li><strong>Safety, Abuse Prevention, and Service Integrity:</strong> To detect and prevent fraudulent activity, unauthorized access, spam, misuse of the platform, and other security threats.</li>
                     <li><strong>Research and Service Improvement Using Anonymized Data Only:</strong> To conduct research on search quality, user experience, and platform performance using fully anonymized, aggregated data that cannot be traced back to individual users.</li>
                 </ol>
+
+                <h3>Notice at Collection (CPRA)</h3>
+                <p>In accordance with the California Privacy Rights Act (CPRA), at the point of account creation AiYOOS discloses the categories of personal information collected and the purposes for which it is used. The categories collected are limited to: (i) account identifiers (name, email, hashed password); (ii) search queries and interaction data (user-controlled); and (iii) anonymized system usage metrics. <strong>AiYOOS does not collect Sensitive Personal Information (SPI)</strong> as defined under CPRA. No government identifiers, precise geolocation, health data, financial account details, biometric data, or contents of private communications are collected.</p>
+                <p>California residents further have the right to request disclosure of personal information collected in the preceding <strong>12-month period</strong>, in accordance with CPRA Section 1798.130. Such requests may be submitted pursuant to Section 10.6 of this Policy.</p>
 
                 <h3>What We Do NOT Use Data For</h3>
                 <ul>
@@ -205,7 +220,7 @@
                     <li><strong>Email address</strong></li>
                     <li><strong>Password (stored as a cryptographic hash—<em>we never store plain-text passwords</em>)</strong></li>
                 </ul>
-                <p>This information is used solely for account authentication, user identification, and service-related communications (such as password resets or critical service updates).</p>
+                <p>This information is used solely for account authentication, user identification, and service-related communications (such as password resets or critical service updates). The lawful basis for processing this data under GDPR Article 6 is <strong>performance of a contract</strong> (Article 6(1)(b)).</p>
 
                 <h3>4.2 Search Queries and Interaction Data (User-Controlled)</h3>
                 <p><strong>AiYOOS processes the following data when you use our search service:</strong></p>
@@ -223,6 +238,7 @@
                 </ul>
 
                 <h3>4.3 Payment Information (Processed by Stripe)</h3>
+
                 <p>If you subscribe to a paid plan, payment processing is handled exclusively by <strong>Stripe, Inc.</strong>, a third-party payment processor.</p>
                 <ul>
                     <li><strong>AiYOOS does NOT collect, store, or retain:</strong> Credit card numbers, bank account details, billing addresses, or any payment credentials.</li>
@@ -230,19 +246,38 @@
                     <li>For details on how Stripe handles your payment data, please review Stripe's Privacy Policy at <a href="https://stripe.com/privacy">https://stripe.com/privacy</a>.</li>
                 </ul>
 
-                <h3>4.4 What We Do NOT Collect</h3>
+                <h3>4.4 Authentication Cookies</h3>
+                <p>AiYOOS uses <strong>JSON Web Token (JWT)-based authentication cookies</strong> for the sole purpose of maintaining authenticated user sessions. These cookies are:</p>
+                <ul>
+                    <li><strong>Purpose:</strong> Authentication and session continuity only. No tracking, advertising, or behavioral profiling.</li>
+                    <li><strong>Scope:</strong> First-party only. No third-party cookie access is permitted.</li>
+                    <li><strong>Security flags:</strong> Set with Secure and HttpOnly flags to prevent interception and cross-site scripting access.</li>
+                    <li><strong>Time-to-live (TTL):</strong> Session-scoped or with a defined expiration period not exceeding 30 days. Tokens are invalidated upon logout.</li>
+                </ul>
+                <p>AiYOOS does not use advertising cookies, cross-site tracking cookies, persistent behavioral identifiers, or any third-party analytics scripts.</p>
+
+                <h3>4.5 What We Do NOT Collect</h3>
                 <p><strong>AiYOOS is designed with data minimization at its core. Unlike traditional search engines and AI platforms, we do NOT collect:</strong></p>
                 <ul>
                     <li><strong>IP addresses:</strong> We do not use IP addresses for tracking, profiling, or advertising purposes. IP addresses may be processed transiently by our infrastructure providers for security, fraud prevention, and service delivery, but are not retained by AiYOOS for user identification.</li>
-                    <li><strong>Cookies or persistent tracking identifiers:</strong> We do not use cookies or similar technologies for advertising, cross-site tracking, or behavioral profiling. Limited first-party, functional cookies may be used solely for authentication and security purposes.</li>
+                    <li><strong>Cookies or persistent tracking identifiers:</strong> We do not use cookies or similar technologies for advertising, cross-site tracking, or behavioral profiling. Limited first-party, functional cookies may be used solely for authentication and security purposes as described in Section 4.4.</li>
                     <li><strong>Voice recordings or audio data:</strong> If you use voice search (where available), audio is processed in real-time for transcription only and is immediately discarded—never stored.</li>
                     <li><strong>Image metadata beyond search functionality:</strong> If you upload images for multimodal search, we analyze the image to answer your query but do not extract EXIF data, GPS coordinates, or other metadata unrelated to the search task.</li>
                     <li><strong>Biometric or special-category data:</strong> AiYOOS does not collect facial recognition data, fingerprints, health data, genetic data, or any sensitive categories protected under GDPR or CCPA.</li>
                     <li><strong>Behavioral profiles or shadow profiles:</strong> We do not build user profiles based on search patterns, inferred demographics, or behavioral analysis.</li>
+                    <li><strong>Sensitive Personal Information (SPI):</strong> As explicitly stated in Section 3, AiYOOS does not collect any category of Sensitive Personal Information as defined under the CPRA.</li>
                 </ul>
 
                 <h2 id="how-data-used">5. How Data Is Used</h2>
                 <p>Your data is used exclusively to operate and improve the AiYOOS search service. <strong>We do not use your data for advertising, profiling, or third-party monetization.</strong></p>
+
+                <h3>Lawful Bases for Processing (GDPR Article 6)</h3>
+                <p>AiYOOS processes personal data only where a lawful basis exists under GDPR Article 6. The applicable lawful bases are:</p>
+                <ul>
+                    <li><strong>Performance of a contract (Article 6(1)(b)):</strong> Processing of account information and search queries necessary to deliver the Service to you.</li>
+                    <li><strong>Legitimate interests (Article 6(1)(f)):</strong> Processing necessary for security monitoring, abuse prevention, fraud detection, and system integrity, where such interests are not overridden by your fundamental rights and freedoms.</li>
+                    <li><strong>Consent (Article 6(1)(a)):</strong> Where applicable, for optional features such as analytics preferences or personalization settings that are not strictly necessary for Service delivery. Consent may be withdrawn at any time without affecting the lawfulness of prior processing.</li>
+                </ul>
 
                 <h3>5.1 Core Service Operation</h3>
                 <ul>
@@ -256,7 +291,7 @@
                 <ul>
                     <li><strong>System optimization vs. AI training:</strong> We analyze anonymized metrics to improve search algorithms, ranking, and relevance. This is <em>system evaluation and optimization</em>, not AI model training. Your individual queries are not used to train language models.</li>
                     <li><strong>Example of acceptable use:</strong> We may analyze system-wide trends (e.g., "Users searching for technical documentation prefer structured tables over prose") but we do not analyze or store individual user behavior (e.g., "User A searched for X, Y, and Z").</li>
-                    <li><strong>Anonymization process:</strong> Before any data is used for system improvement or research, all personally identifiable information is permanently removed, ensuring that data cannot be traced back to individual users.</li>
+                    <li><strong>Anonymization process:</strong> Before any data is used for system improvement or research, all personally identifiable information is permanently removed through aggregation and the irreversible removal of direct and indirect identifiers. The resulting dataset cannot reasonably be used to re-identify any individual user, and AiYOOS does not attempt or permit re-identification. This process constitutes anonymization as defined in GDPR Recital 26. Anonymized data used for system optimization is expressly distinguished from behavioral profiling; no inferences about individual users are drawn or retained.</li>
                 </ul>
 
                 <h3>5.3 Security, Safety, and Abuse Prevention</h3>
@@ -266,15 +301,36 @@
                     <li>Identify and mitigate security threats, including denial-of-service attacks and automated abuse.</li>
                     <li>Enforce our Terms of Service and protect the rights and safety of AiYOOS users.</li>
                 </ul>
+                <p>The lawful basis for this processing is <strong>legitimate interests</strong> (GDPR Article 6(1)(f)), as AiYOOS has a legitimate interest in maintaining the security and integrity of its platform and protecting users from harm.</p>
 
-                <h3>5.4 External AI Model Processing (Google Gemini 2.5 Flash)</h3>
-                <p>AiYOOS currently uses <strong>Google Gemini 2.5 Flash</strong> as the reasoning and synthesis engine to process your search queries and generate structured answers.</p>
+                <h3>5.4 External AI Model Processing</h3>
+                <p><strong>Architecture Overview:</strong> AiYOOS employs a multi-model AI architecture utilizing two distinct Gemini models and the Brave Search retrieval infrastructure, each with clearly defined and contractually bounded roles.</p>
+
+                <h4>A. Gemini 3.0 Flash (Reasoning &amp; Synthesis)</h4>
+                <p>AiYOOS uses <strong>Google Gemini 3.0 Flash</strong> as the primary reasoning and synthesis engine responsible for semantic analysis, structured answer generation, and confidence scoring.</p>
                 <ul>
-                    <li><strong>What this means:</strong> When you submit a query, AiYOOS sends your question and retrieved source content to Google's large language model for semantic analysis and synthesis.</li>
-                    <li><strong>Privacy safeguard:</strong> Under our enterprise agreement with Google, your queries processed through Gemini 2.5 Flash are <strong><em>contractually restricted from being used to train or improve Google's AI models</em></strong>. Google processes queries solely to generate responses in accordance with our enterprise agreement. Limited retention may occur as required for security, abuse prevention, or legal compliance.</li>
-                    <li><strong>Future roadmap:</strong> AiYOOS is developing a proprietary, search-optimized large language model to eliminate reliance on third-party AI providers entirely. This will provide even greater control over data processing and privacy.</li>
+                    <li><strong>What this means:</strong> When you submit a query, AiYOOS transmits your question and retrieved source content to Gemini 3.0 Flash for semantic analysis and structured response generation.</li>
+                    <li><strong>Privacy safeguard:</strong> Under AiYOOS's enterprise agreement with Google LLC, queries processed through Gemini 3.0 Flash are contractually restricted from being used to train or improve Google's AI models. Google processes queries solely to generate responses in accordance with the enterprise agreement. Limited retention may occur as required for security, abuse prevention, or legal compliance.</li>
                 </ul>
-                <p><em>Important note: While AiYOOS does not use your queries to train AI models, Google's processing of queries through Gemini 2.5 Flash is subject to Google's enterprise AI terms. AiYOOS has specifically selected an enterprise configuration that contractually restricts Google from using your data for model training. However, Google may process and temporarily retain data as necessary for security, abuse prevention, and compliance purposes.</em></p>
+
+                <h4>B. Gemini 3.1 Flash Lite (Content Safety &amp; Compliance)</h4>
+                <p>AiYOOS uses <strong>Google Gemini 3.1 Flash Lite</strong> exclusively for content safety evaluation, output filtering, and compliance enforcement prior to delivery of responses to users.</p>
+                <ul>
+                    <li><strong>Function:</strong> This model performs safety classification, harmful content filtering, and policy compliance checks on outputs before they are presented to you. It does not perform primary search reasoning or synthesis.</li>
+                    <li><strong>Privacy safeguard:</strong> The same enterprise-grade contractual restrictions applicable to Gemini 3.0 Flash apply to Gemini 3.1 Flash Lite. Google is contractually prohibited from using any data processed through either model for model training or improvement purposes. Retention is limited strictly to security and compliance requirements.</li>
+                </ul>
+                <p><strong>Separation of Responsibilities:</strong> Gemini 3.0 Flash handles reasoning and synthesis; Gemini 3.1 Flash Lite handles safety and compliance filtering. These functions are operationally and contractually separated to ensure that each model processes only the data necessary for its specific, defined purpose.</p>
+
+                <h4>C. Brave Search (Web Search Retrieval)</h4>
+                <p>AiYOOS integrates <strong>Brave Search</strong>, operated by Brave Software, Inc., as a web search retrieval provider. Brave Search is used solely to retrieve relevant web content in response to your search queries.</p>
+                <ul>
+                    <li><strong>What is shared:</strong> Only the text of your search query is transmitted to Brave Search for the purpose of web content retrieval. No account information, session identifiers, or personal profile data is transmitted.</li>
+                    <li><strong>No profiling or advertising:</strong> Brave Search does not use query data for user profiling, behavioral advertising, or data resale. AiYOOS has selected Brave Search specifically due to its privacy-aligned architecture.</li>
+                    <li><strong>No training use:</strong> Query data transmitted to Brave Search is not used for training AI or machine learning models.</li>
+                    <li><strong>Contractual restrictions:</strong> Brave Software's processing of search queries on AiYOOS's behalf is governed by a Data Processing Agreement that prohibits use of data beyond retrieval purposes and aligns with AiYOOS's privacy commitments.</li>
+                </ul>
+                <p><em>Important note: While AiYOOS does not use your queries to train AI models, processing by Google (Gemini 3.0 Flash and Gemini 3.1 Flash Lite) and Brave Search is subject to each party's respective enterprise AI and service terms, as restricted by binding Data Processing Agreements with AiYOOS. All three providers operate exclusively as <strong>Data Processors</strong> under GDPR Article 28, processing data only as instructed by AiYOOS and under binding contractual obligations.</em></p>
+                <p><em>Future roadmap: AiYOOS is developing a proprietary, search-optimized large language model to eliminate reliance on third-party AI providers entirely. This will provide even greater control over data processing and privacy.</em></p>
 
                 <h3>5.5 What We Do NOT Do With Your Data</h3>
                 <ul>
@@ -337,6 +393,15 @@
                     <li><strong>Contractual guarantees:</strong> Enterprise agreements include explicit data isolation, retention, and deletion commitments tailored to organizational requirements.</li>
                 </ul>
 
+                <h3>6.7 Consent Mechanism at Account Creation</h3>
+                <p>At the point of account creation, AiYOOS obtains <strong>explicit, informed consent</strong> from users prior to the processing of any personal data. Specifically:</p>
+                <ul>
+                    <li>Users are presented with a clear and conspicuous acceptance flow requiring affirmative acknowledgment of this Privacy Policy and the AiYOOS Terms of Service.</li>
+                    <li>Acceptance is obtained via an <strong>explicit, unchecked checkbox</strong> (opt-in), ensuring that consent is freely given, specific, informed, and unambiguous as required under GDPR Article 7.</li>
+                    <li>Consent events are <strong>logged with a timestamp</strong> and associated with the user's account record for audit and compliance purposes.</li>
+                    <li>Users may withdraw consent at any time by deleting their account, which triggers permanent deletion of personal data within 30 days as described in Section 7.1.</li>
+                </ul>
+
                 <h2 id="data-retention">7. Data Retention</h2>
                 <p><strong>AiYOOS follows a principle of minimal data retention.</strong> We retain data only as long as necessary to provide the Service, comply with legal obligations, or fulfill the purposes described in this Privacy Policy.</p>
 
@@ -379,25 +444,36 @@
                 <p><strong>Note:</strong> While we implement robust security measures, no system is completely immune to attack. We encourage users to practice good security hygiene, including using strong, unique passwords and enabling two-factor authentication where available.</p>
 
                 <h2 id="third-party">9. Third-Party Vendors & Data Sharing</h2>
-                <p><strong>AiYOOS does not sell, rent, or share your personal data with third parties for their commercial purposes.</strong> However, we may share limited data with trusted third-party vendors strictly to provide and improve the Service.</p>
+                <p><strong>AiYOOS does not sell, rent, or share your personal data with third parties for their commercial purposes.</strong> However, we may share limited data with trusted third-party vendors strictly to provide and improve the Service. For the purposes of GDPR, AiYOOS acts as the <strong>Data Controller</strong>, and all third-party vendors described below act exclusively as <strong>Data Processors</strong> under binding Data Processing Agreements (DPAs) executed pursuant to GDPR Article 28.</p>
 
                 <h3>9.1 Payment Processing (Stripe)</h3>
                 <p>As described in Section 4.3, all payment processing is handled by <strong>Stripe, Inc.</strong></p>
                 <ul>
                     <li><strong>What Stripe receives:</strong> Your payment information (credit card, billing address) is transmitted directly to Stripe. AiYOOS does not store or process payment credentials.</li>
                     <li><strong>What AiYOOS receives from Stripe:</strong> A tokenized confirmation of payment success and subscription status.</li>
+                    <li><strong>Data Processing Agreement:</strong> AiYOOS has executed a DPA with Stripe, Inc. in accordance with GDPR Article 28, governing Stripe's processing of personal data on AiYOOS's behalf.</li>
                     <li>For details, review Stripe's Privacy Policy at <a href="https://stripe.com/privacy">https://stripe.com/privacy</a>.</li>
                 </ul>
 
-                <h3>9.2 AI Model Provider (Google Gemini)</h3>
-                <p>As described in Section 5.4, AiYOOS currently uses <strong>Google Gemini 2.5 Flash</strong> to process search queries.</p>
+                <h3>9.2 AI Model Providers (Google Gemini)</h3>
+                <p>As described in Section 5.4, AiYOOS uses <strong>Google Gemini 3.0 Flash</strong> for reasoning and synthesis and <strong>Google Gemini 3.1 Flash Lite</strong> for content safety, filtering, and compliance enforcement.</p>
                 <ul>
-                    <li><strong>What Google receives:</strong> Your search queries and retrieved source content for semantic analysis and synthesis.</li>
-                    <li><strong>Privacy safeguard:</strong> Under our enterprise agreement with Google, your queries are <strong><em>contractually restricted from being used to train or improve Google's AI models</em></strong>. Google processes queries solely to generate responses. Limited retention may occur as required for security, abuse prevention, or legal compliance.</li>
-                    <li><strong>Future roadmap:</strong> AiYOOS is developing a proprietary LLM to eliminate third-party AI dependencies entirely.</li>
+                    <li><strong>What Google receives:</strong> Your search queries and retrieved source content, transmitted to the applicable Gemini model for the specific processing function (reasoning/synthesis or safety/filtering).</li>
+                    <li><strong>Privacy safeguard:</strong> Under AiYOOS's enterprise agreement with Google LLC, queries processed through either Gemini model are contractually restricted from being used to train or improve Google's AI models. Google processes queries solely to generate and evaluate responses. Limited retention may occur as required for security, abuse prevention, or legal compliance.</li>
+                    <li><strong>Data Processing Agreement:</strong> AiYOOS has executed a DPA with Google LLC under GDPR Article 28, under which Google acts exclusively as a Data Processor. Google is bound by enterprise-grade restrictions including: (i) no training on user data; (ii) no use of data for Google's own purposes; and (iii) retention limited strictly to security and compliance requirements.</li>
+                    <li><em>Future roadmap: AiYOOS is developing a proprietary LLM to eliminate third-party AI dependencies entirely.</em></li>
                 </ul>
 
-                <h3>9.3 Legal Authorities</h3>
+                <h3>9.3 Web Search Retrieval (Brave Search)</h3>
+                <p>As described in Section 5.4, AiYOOS uses <strong>Brave Search</strong>, operated by Brave Software, Inc., for web content retrieval.</p>
+                <ul>
+                    <li><strong>What Brave Search receives:</strong> Only the text of your search query, transmitted for the sole purpose of retrieving relevant web content.</li>
+                    <li><strong>No profiling, no advertising, no data resale:</strong> Brave Software does not use query data for user profiling, behavioral advertising, data monetization, or resale to third parties.</li>
+                    <li><strong>No training use:</strong> Query data transmitted to Brave Search is not used for training AI or machine learning models.</li>
+                    <li><strong>Data Processing Agreement:</strong> AiYOOS has executed a DPA with Brave Software, Inc. under GDPR Article 28, binding Brave to process data exclusively for retrieval purposes and in alignment with AiYOOS's privacy commitments.</li>
+                </ul>
+
+                <h3>9.4 Legal Authorities</h3>
                 <p>AiYOOS may disclose your data if required to do so by law or in response to valid legal processes, such as:</p>
                 <ul>
                     <li>Court orders, subpoenas, or government requests.</li>
@@ -406,7 +482,7 @@
                 </ul>
                 <p><strong>Note:</strong> AiYOOS will challenge overly broad or unjustified requests and will notify affected users unless legally prohibited from doing so.</p>
 
-                <h3>9.4 International Data Transfers</h3>
+                <h3>9.5 International Data Transfers</h3>
                 <p>AiYOOS operates globally and may transfer data across international borders to provide the Service. However, <strong>we do not transfer data internationally without appropriate legal safeguards.</strong></p>
                 <ul>
                     <li><strong>For EU users:</strong> Data transfers outside the European Economic Area (EEA) are protected by Standard Contractual Clauses (SCCs) or other mechanisms approved under GDPR.</li>
@@ -455,6 +531,7 @@
                 <ul>
                     <li>Use the self-service controls in your AiYOOS account settings.</li>
                     <li>Contact us at <strong><a href="mailto:aiyoos.privacy@gmail.com">aiyoos.privacy@gmail.com</a></strong> with the subject line "Privacy Request."</li>
+                    <li><strong>Authorized Agent Requests (CPRA):</strong> California residents may designate an authorized agent to submit rights requests on their behalf. To do so, the authorized agent must provide written authorization signed by you, or a valid power of attorney under California Probate Code. AiYOOS will verify the agent's authority before processing the request. You may also verify your identity directly with AiYOOS to confirm the agent's authorization.</li>
                 </ul>
                 <p>We will respond to your request within 30 days (or as required by applicable law) and will verify your identity before processing requests that involve access to or deletion of personal data.</p>
 
@@ -464,7 +541,7 @@
                 <h3>11.1 Data Minimization</h3>
                 <p>We collect only the data strictly necessary to provide the Service:</p>
                 <ul>
-                    <li>We do not collect IP addresses, cookies, tracking identifiers, voice recordings, image metadata, biometric data, or behavioral profiles (see Section 4.4).</li>
+                    <li>We do not collect IP addresses, cookies, tracking identifiers, voice recordings, image metadata, biometric data, or behavioral profiles (see Section 4.5).</li>
                     <li>We do not request unnecessary personal information during account registration or use of the Service.</li>
                 </ul>
 
@@ -502,6 +579,9 @@
                     <strong>Website:</strong> <a href="https://aiyoos.com">https://aiyoos.com</a>
                 </p>
                 <p>We will respond to your inquiry within 30 days (or as required by applicable law).</p>
+
+                <h3>Data Protection Officer</h3>
+                <p>AiYOOS has not designated a Data Protection Officer as it is not legally required to do so at this time under GDPR Article 37. Inquiries relating to data protection, GDPR compliance, or the exercise of data subject rights may be directed to: <a href="mailto:aiyoos.privacy@gmail.com">aiyoos.privacy@gmail.com</a>.</p>
 
                 <h2>Our Privacy Commitment</h2>
                 <p class="text-lg italic text-slate-700">
