@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="../favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - AiYOOS</title>
+    <title>Security &amp; Compliance - AiYOOS</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,8 +45,8 @@
                 radial-gradient(at 100% 0%, rgba(59, 130, 246, 0.08) 0px, transparent 50%),
                 radial-gradient(at 0% 100%, rgba(99, 102, 241, 0.06) 0px, transparent 50%);
         }
-        /* About content styles */
-        .about-content h2 {
+        /* Content styles */
+        .privacy-content h2 {
             font-family: var(--font-serif);
             font-size: 2rem;
             font-weight: 600;
@@ -54,14 +54,45 @@
             margin-bottom: 1rem;
             color: #0F172A;
         }
-        .about-content p {
+        .privacy-content h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            color: #1E293B;
+        }
+        .privacy-content h4 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #334155;
+        }
+        .privacy-content p {
             margin-bottom: 1rem;
             line-height: 1.75;
             color: #475569;
         }
-        .about-content strong {
+        .privacy-content ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+            list-style-type: disc;
+        }
+        .privacy-content ul li {
+            margin-bottom: 0.5rem;
+            line-height: 1.75;
+            color: #475569;
+        }
+        .privacy-content strong {
             color: #1E293B;
             font-weight: 600;
+        }
+        .privacy-content a {
+            color: #3B82F6;
+            text-decoration: underline;
+        }
+        .privacy-content a:hover {
+            color: #2563EB;
         }
     </style>
 </head>
@@ -96,38 +127,54 @@
             <!-- Header -->
             <div class="text-center mb-12">
                 <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-blue-700 text-xs font-medium mb-6">
-                    <iconify-icon icon="solar:buildings-bold" width="14"></iconify-icon>
-                    <span>AiYOOS Technology Inc.</span>
+                    <iconify-icon icon="solar:lock-bold" width="14"></iconify-icon>
+                    <span>Security by Design</span>
                 </div>
                 <h1 class="font-serif-display text-5xl md:text-6xl leading-tight text-slate-900 tracking-tight mb-4">
-                    About Us
+                    Security &amp; Compliance
                 </h1>
                 <p class="text-slate-600 text-lg">
-                    Search and intelligence, reimagined.
+                    <strong>AiYOOS Technology Inc.</strong>
                 </p>
             </div>
 
-            <!-- About Content -->
-            <div class="bg-white rounded-2xl border border-slate-200 shadow-xl p-8 md:p-12 about-content">
+            <!-- Content -->
+            <div class="bg-white rounded-2xl border border-slate-200 shadow-xl p-8 md:p-12 privacy-content">
 
-                <h2>Who We Are</h2>
-                <p>AiYOOS Technology Inc. is a search and intelligence company focused on solving one of the hardest problems in the digital world: finding correct, relevant, and usable knowledge inside complex information systems.</p>
+                <p>AiYOOS is a privacy-first AI search engine built on the principle that your data belongs to you. We protect user information through robust security controls and strict privacy practices, earning trust rather than monetizing data.</p>
 
-                <p>We build advanced search technology powered by neural networks and machine learning, designed to go beyond keyword matching. AiYOOS is a hybrid insight engine that understands meaning, context, relationships, and intent. It does not just retrieve documents. It helps users understand what the information means and why it matters.</p>
+                <h2>Security Measures</h2>
+                <p>We implement multiple layers of protection to safeguard your information:</p>
+                <ul>
+                    <li><strong>End-to-end encryption</strong> – All data is encrypted both in transit and at rest using industry-standard protocols</li>
+                    <li><strong>Secure infrastructure</strong> – Our systems are hosted on audited, certified cloud platforms with continuous monitoring</li>
+                    <li><strong>Regular security testing</strong> – We conduct ongoing vulnerability assessments and independent security audits to identify and address potential risks</li>
+                    <li><strong>Access controls</strong> – Strict authentication and authorization protocols limit data access to essential personnel only</li>
+                </ul>
 
-                <p>Our systems are engineered for environments where accuracy is critical, sources are dense, and mistakes are costly. We focus on clarity over noise, reasoning over guesswork, and evidence over speculation.</p>
+                <h2>Compliance</h2>
+                <p>AiYOOS complies with applicable global and regional data protection regulations, including:</p>
+                <ul>
+                    <li><strong>GDPR</strong> (General Data Protection Regulation) – European Union</li>
+                    <li><strong>CCPA</strong> (California Consumer Privacy Act)</li>
+                    <li><strong>CPRA</strong> (California Privacy Rights Act)</li>
+                </ul>
+                <p>We handle personal data lawfully, ethically, and transparently, ensuring users maintain control over their information.</p>
 
-                <h2>Our Mission</h2>
-                <p>To provide the world's most precise, reliable, and context-aware AI search experience.</p>
+                <h2>Data Privacy Commitment</h2>
+                <p>Our privacy-first approach means:</p>
+                <ul>
+                    <li><strong>Data minimization</strong> – We collect only what's necessary to deliver our service</li>
+                    <li><strong>Transparent practices</strong> – Clear communication about what data we collect and how it's used</li>
+                    <li><strong>User control</strong> – You can access, modify, or delete your data at any time</li>
+                    <li><strong>No data sales</strong> – We never sell user data to third parties</li>
+                </ul>
 
-                <h2>Our Vision</h2>
-                <p>To become the global benchmark for semantic AI search, built on clarity, accuracy, and focus.</p>
-
-                <h2>Our Philosophy</h2>
-                <p>Keep search simple, powerful, and trustworthy.</p>
-                <p>We believe search should reduce complexity, not add to it.<br>
-                We believe users should understand why an answer is given, not just receive one.<br>
-                We believe trust is earned through accuracy, transparency, and consistency.</p>
+                <h2>Our Security Promise</h2>
+                <p class="text-lg italic text-slate-700">
+                    "At AiYOOS, security and privacy are not features—they are the foundation of everything we build. Your questions are your business. Your research is your property. Your trust is our responsibility. We exist to answer your questions with accuracy and excellence, not to exploit your curiosity for profit."
+                </p>
+                <p>For complete details on how we handle your information, please review our full <a href="/privacy">Privacy Policy</a>.</p>
 
             </div>
         </div>
@@ -189,7 +236,7 @@
 
             <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
                 <p class="text-slate-500 text-sm">
-                    © 2026 AiYOOS Inc. All rights reserved.
+                    &copy; 2026 AiYOOS Inc. All rights reserved.
                 </p>
                 <div class="flex items-center gap-6">
                     <div class="flex items-center gap-2 text-xs text-slate-500">
