@@ -1,0 +1,23 @@
+# AiYOOS
+
+> AiYOOS is a privacy-first, AI-powered search engine built for complex questions. It delivers cited, in-depth answers synthesized from trusted sources—with complete user control over data. Currently in pre-launch waitlist phase. No ads. No tracking. No social features. Search excellence is the sole focus.
+
+AiYOOS ("All is Yes, Open Or Search") is developed by AiYOOS Inc. The product uses semantic understanding and multi-hop reasoning to answer hard questions by synthesizing information across hundreds of sources. Every claim is linked to a traceable citation. The engine supports multimodal input including PDFs, research papers, legal documents, datasets, and images.
+
+Privacy is a core design principle: user queries are never used to train models, there is no behavioral profiling, no advertising model, and users can export or delete their data at any time. The service is GDPR and CCPA compliant.
+
+An enterprise tier offers single-tenant deployments, SSO integration, custom knowledge bases, API access, and audit logging for research libraries, law firms, government agencies, and R&D labs.
+
+## Pages
+
+- [Home](https://www.aiyoos.com/): Product overview, feature highlights, privacy controls, enterprise offering, and waitlist signup.
+- [About](https://www.aiyoos.com/about/): Team and mission behind AiYOOS.
+- [Privacy Policy](https://www.aiyoos.com/privacy/): How AiYOOS collects, uses, and protects user information.
+- [Terms of Use](https://www.aiyoos.com/terms-of-use/): Terms governing use of the AiYOOS platform.
+- [Security & Compliance](https://www.aiyoos.com/security-compliance/): Security practices and compliance information (GDPR, CCPA).
+
+## Optional
+
+- [X / Twitter](https://x.com/AiYOOSSearch): Official AiYOOS account on X.
+- [LinkedIn](https://www.linkedin.com/company/aiyoos): Company page on LinkedIn.
+- [Discord](https://discord.gg/EHbt3EFw): Community server for AiYOOS users and early adopters.
